@@ -17,12 +17,12 @@ import java.util.stream.IntStream;
 public class EulerUtils {
 
     private static Map<Long, List<Long>> cache2 = new HashMap<>();
-
-    public static boolean isPrime(long candidate) {
-        int candidateRoot = (int) Math.sqrt((double) candidate);
-        return IntStream.rangeClosed(2, candidateRoot)
-        .noneMatch(i -> candidate % i == 0);
-    }
+//
+//    public static boolean isPrime(long candidate) {
+//        int candidateRoot = (int) Math.sqrt((double) candidate);
+//        return IntStream.rangeClosed(2, candidateRoot)
+//        .noneMatch(i -> candidate % i == 0);
+//    }
     
     public static List<Long> getDistinctDivisors(long v) {
         long value = v;

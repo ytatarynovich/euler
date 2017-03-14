@@ -11,10 +11,10 @@ import utils.EulerUtils;
 
 public class P71 {
     public static void main(String[] args) {
-        
-        IntStream.rangeClosed(1, 1_000_000).flatMap(a ->
-        IntStream.rangeClosed(1, a).mapToObj(t -> (double) t / a));
-    }
+//
+//        IntStream.rangeClosed(1, 1_000_000).flatMap(a ->
+//        IntStream.rangeClosed(1, a).mapToObj(t -> (double) t / a));
+//    }
         
 //        Set<Fraction> set = new HashSet<>();
 //        for (int i = 1; i < 1_000_000; i++) {
